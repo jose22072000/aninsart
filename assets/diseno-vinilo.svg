@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" fill="none">
+  <rect width="700" height="700" fill="#111111"/>
+  <circle cx="350" cy="350" r="255" stroke="#F0F0F0" stroke-width="14"/>
+  <circle cx="350" cy="350" r="188" stroke="#9A9A9A" stroke-width="8"/>
+  <circle cx="350" cy="350" r="112" stroke="#5E5E5E" stroke-width="6"/>
+  <circle cx="350" cy="350" r="28" fill="#EAEAEA"/>
+  <text x="350" y="640" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="52" fill="#EAEAEA">ART VINYL</text>
+</svg>

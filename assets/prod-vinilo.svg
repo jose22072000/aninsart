@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#ECEDEF"/>
+  <rect x="120" y="80" width="960" height="740" rx="28" fill="#FFFFFF"/>
+  <circle cx="600" cy="430" r="240" fill="#2C2C2C"/>
+  <circle cx="600" cy="430" r="170" fill="#4A4A4A"/>
+  <circle cx="600" cy="430" r="48" fill="#D8D8D8"/>
+  <text x="600" y="760" text-anchor="middle" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#1D1D1D">VINILO / DVD</text>
+</svg>

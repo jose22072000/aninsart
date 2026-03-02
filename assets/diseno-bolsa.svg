@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" fill="none">
+  <rect width="700" height="700" fill="#F6F1E8"/>
+  <rect x="110" y="120" width="480" height="460" rx="26" fill="#EFE3CF" stroke="#D8C4A6" stroke-width="6"/>
+  <circle cx="252" cy="280" r="64" fill="#C88E5A"/>
+  <circle cx="448" cy="280" r="64" fill="#A46A42"/>
+  <path d="M140 470C220 430 300 430 350 470C400 510 480 510 560 470V600H140V470Z" fill="#B67C4D"/>
+  <text x="350" y="380" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700" fill="#6F4528">BOLSA ART</text>
+</svg>

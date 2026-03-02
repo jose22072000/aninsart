@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" fill="none">
+  <rect width="700" height="700" fill="#E9F1F8"/>
+  <rect x="120" y="110" width="460" height="480" rx="20" fill="#8AAECC"/>
+  <path d="M120 220H580" stroke="#6D90AE" stroke-width="10"/>
+  <path d="M350 110V590" stroke="#6D90AE" stroke-width="10"/>
+  <path d="M192 365C250 320 310 320 350 365C390 410 450 410 508 365V505H192V365Z" fill="#EAF3FB"/>
+  <text x="350" y="270" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="700" fill="#F8FCFF">DENIM</text>
+</svg>

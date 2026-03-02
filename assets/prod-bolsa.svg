@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#EEEDE9"/>
+  <rect x="120" y="80" width="960" height="740" rx="28" fill="#FFFFFF"/>
+  <path d="M470 310V250C470 190 520 150 600 150C680 150 730 190 730 250V310" stroke="#B8A486" stroke-width="20" stroke-linecap="round"/>
+  <rect x="430" y="290" width="340" height="390" rx="24" fill="#E5D8C1"/>
+  <text x="600" y="760" text-anchor="middle" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#1D1D1D">BOLSA 40x30</text>
+</svg>

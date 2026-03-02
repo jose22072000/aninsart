@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" fill="none">
+  <rect width="700" height="700" fill="#1B1B1B"/>
+  <rect x="120" y="130" width="460" height="440" rx="34" fill="#242424" stroke="#DCDCDC" stroke-width="6"/>
+  <circle cx="250" cy="280" r="70" fill="#EDEDED"/>
+  <path d="M320 350L380 240L440 350L550 368L472 445L492 560L380 503L268 560L288 445L210 368L320 350Z" fill="#EDEDED"/>
+  <text x="350" y="632" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="700" fill="#EFEFEF">CUSTOM</text>
+</svg>

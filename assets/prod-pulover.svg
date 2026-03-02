@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#ECEFF2"/>
+  <rect x="120" y="80" width="960" height="740" rx="28" fill="#FFFFFF"/>
+  <path d="M385 280L500 220H700L815 280L890 430L810 475L760 390V700H440V390L390 475L310 430L385 280Z" fill="#2C2C2C"/>
+  <rect x="495" y="390" width="210" height="200" rx="18" fill="#EFEFEF"/>
+  <text x="600" y="760" text-anchor="middle" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#1D1D1D">PULÓVER</text>
+</svg>

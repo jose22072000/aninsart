@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de pedido | Aninsart</title>
+    <meta
+      name="description"
+      content="Formulario inteligente por producto para recibir datos de pedido y envío por WhatsApp."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon-aninsart.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">ANINSART</a>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="catalogo.html">Catálogo</a>
+          <a href="galeria.html">Galería</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h1 id="product-title">Formulario de pedido</h1>
+        <p id="product-price" class="price-tag">Precio: pendiente (CUP / USD)</p>
+        <p id="product-info" class="product-info">Completa los datos solicitados para este producto.</p>
+
+        <div class="product-layout">
+          <form id="pedido-form" class="panel" autocomplete="on">
+            <h2>Datos del cliente</h2>
+
+            <label for="cliente-nombre">Nombre</label>
+            <input id="cliente-nombre" type="text" placeholder="Tu nombre" required />
+
+            <label for="cliente-telefono">Teléfono</label>
+            <input id="cliente-telefono" type="tel" placeholder="Tu número" required />
+
+            <label for="cantidad">Cantidad</label>
+            <input id="cantidad" type="number" min="1" value="1" required />
+
+            <div id="pulover-fields" class="field-group hidden">
+              <h3>Pulóver</h3>
+
+              <label for="pulover-talla">Talla</label>
+              <select id="pulover-talla">
+                <option value="">Seleccionar</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+
+              <label for="pulover-posicion">Ubicación del diseño</label>
+              <select id="pulover-posicion">
+                <option value="">Seleccionar</option>
+                <option value="Delante">Delante</option>
+                <option value="Detrás">Detrás</option>
+                <option value="Ambas">Ambas</option>
+              </select>
+
+              <label class="check-row" for="pulover-prenda-propia">
+                <input id="pulover-prenda-propia" type="checkbox" />
+                Llevo mi propio pulóver
+              </label>
+            </div>
+
+            <div id="lienzo-fields" class="field-group hidden">
+              <h3>Cuadro en lienzo</h3>
+
+              <label for="lienzo-medida">Medida</label>
+              <select id="lienzo-medida">
+                <option value="">Seleccionar</option>
+                <option value="13x15 cm">13x15 cm</option>
+                <option value="20x25 cm">20x25 cm</option>
+                <option value="35x25 cm">35x25 cm</option>
+                <option value="40x45 cm">40x45 cm</option>
+              </select>
+            </div>
+
+            <div id="vinilo-fields" class="field-group hidden">
+              <h3>Vinilo / DVD</h3>
+
+              <label for="vinilo-diametro">Diámetro</label>
+              <select id="vinilo-diametro">
+                <option value="">Seleccionar</option>
+                <option value="12 cm">12 cm</option>
+                <option value="18 cm">18 cm</option>
+                <option value="25 cm">25 cm</option>
+                <option value="30 cm">30 cm</option>
+              </select>
+            </div>
+
+            <div id="bolsa-fields" class="field-group hidden">
+              <h3>Bolsa de tela</h3>
+              <p class="pill">Medida fija: 40x30 cm</p>
+            </div>
+
+            <div id="chaqueta-fields" class="field-group hidden">
+              <h3>Chaqueta</h3>
+              <label class="check-row" for="chaqueta-prenda-propia">
+                <input id="chaqueta-prenda-propia" type="checkbox" />
+                Llevo mi propia chaqueta
+              </label>
+            </div>
+
+            <div id="pantalon-fields" class="field-group hidden">
+              <h3>Pantalón</h3>
+              <label class="check-row" for="pantalon-prenda-propia">
+                <input id="pantalon-prenda-propia" type="checkbox" />
+                Confirmo que llevo mi pantalón (obligatorio)
+              </label>
+            </div>
+
+            <h2>Entrega</h2>
+            <label class="check-row" for="requiere-domicilio">
+              <input id="requiere-domicilio" type="checkbox" />
+              Quiero servicio a domicilio
+            </label>
+
+            <div id="domicilio-fields" class="hidden">
+              <label for="direccion-entrega">Dirección de entrega</label>
+              <textarea
+                id="direccion-entrega"
+                rows="3"
+                placeholder="Calle, número, reparto, municipio"
+              ></textarea>
+            </div>
+
+            <label for="nota-extra">Detalle del pedido (opcional)</label>
+            <textarea
+              id="nota-extra"
+              rows="3"
+              placeholder="Escribe cualquier observación importante"
+            ></textarea>
+
+            <small>
+              Las referencias visuales y diseño final se coordinan contigo de forma personal por WhatsApp.
+            </small>
+
+            <div class="actions stack">
+              <button type="button" id="whatsapp-btn" class="btn btn-primary">
+                Enviar pedido por WhatsApp
+              </button>
+            </div>
+          </form>
+
+          <section class="panel">
+            <h2>Resumen</h2>
+            <p id="resumen-producto" class="card-meta">Producto: --</p>
+            <p id="resumen-precio" class="card-meta">Precio: --</p>
+            <p id="resumen-detalles" class="card-meta">Especificaciones: --</p>
+            <p id="resumen-entrega" class="card-meta">Entrega: --</p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Aninsart.</p>
+        <a href="catalogo.html">Volver al catálogo</a>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/pedido.js"></script>
+  </body>
+</html>

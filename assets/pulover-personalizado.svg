@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" fill="none">
+  <rect width="900" height="900" fill="#F2F2F2"/>
+  <path d="M250 210L340 160H560L650 210L720 340L640 395L595 320V760H305V320L260 395L180 340L250 210Z" fill="#E6E6E6" stroke="#D2D2D2" stroke-width="8"/>
+  <rect x="320" y="315" width="260" height="280" rx="16" fill="#F0F0F0" stroke="#DBDBDB" stroke-width="4" stroke-dasharray="12 9"/>
+  <text x="450" y="455" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" fill="#949494">Área diseño</text>
+</svg>

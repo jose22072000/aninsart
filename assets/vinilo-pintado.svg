@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" fill="none">
+  <rect width="900" height="900" fill="#F2F2F2"/>
+  <circle cx="450" cy="430" r="250" fill="#2F2F2F"/>
+  <circle cx="450" cy="430" r="190" fill="#4C4C4C"/>
+  <circle cx="450" cy="430" r="52" fill="#D8D8D8"/>
+  <circle cx="450" cy="430" r="24" fill="#BDBDBD"/>
+  <rect x="295" y="640" width="310" height="130" rx="16" fill="#ECECEC" stroke="#D6D6D6" stroke-width="4" stroke-dasharray="12 9"/>
+  <text x="450" y="718" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" fill="#8E8E8E">Área diseño</text>
+</svg>

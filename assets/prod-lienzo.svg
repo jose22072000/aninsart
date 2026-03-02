@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#F2EFE9"/>
+  <rect x="120" y="80" width="960" height="740" rx="28" fill="#FFFFFF"/>
+  <rect x="380" y="200" width="440" height="500" rx="8" fill="#C3A57F"/>
+  <rect x="410" y="230" width="380" height="440" rx="4" fill="#F7F2EA"/>
+  <text x="600" y="760" text-anchor="middle" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#1D1D1D">LIENZO</text>
+</svg>

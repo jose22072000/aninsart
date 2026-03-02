@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" fill="none">
+  <rect width="700" height="700" fill="#F8F0E4"/>
+  <path d="M0 520C120 470 240 470 350 520C460 570 580 570 700 520V700H0V520Z" fill="#C69463"/>
+  <path d="M0 430C110 395 220 395 350 430C480 465 590 465 700 430V560C580 610 460 610 350 560C240 510 120 510 0 560V430Z" fill="#E1B27E"/>
+  <text x="350" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="600" fill="#6B4C2F">ANINSART</text>
+</svg>
